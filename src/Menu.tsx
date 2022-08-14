@@ -94,13 +94,14 @@ const MenuView = styled.View`
   borderColor: white;
   width: 90%;
   backgroundColor: white;
-  borderRadius: 12px;
+  border-radius: 12px;
   marginHorizontal: 20px;
   marginVertical:10px;
   shadowColor: #222b32;
   shadowOffset: 0px 0px;
   shadowOpacity: 0.2;
-  shadowRadius: 3px
+  shadowRadius: 3px;
+  elevation: 5;
 `;
 
 const FavouriteView = styled.TouchableOpacity`
@@ -108,7 +109,7 @@ const FavouriteView = styled.TouchableOpacity`
   top:10px;
   right:10px;
   backgroundColor:#FFFFFF;
-  borderRadius:50%;
+  border-radius:50px;
   padding:10px;
 `;
 
@@ -132,5 +133,5 @@ const AddView = styled.TouchableOpacity`
 const PaleoView = styled.View`
   borderWidth:1px;
   borderColor:#FFFFFF;
-  borderRadius:'50%';
+  border-radius:50px;
   `;

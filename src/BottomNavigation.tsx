@@ -71,7 +71,7 @@ const CartView = styled.View`
   margin:5px;
   padding:20px;
   borderWidth:10px;
-  borderRadius:50%;
+  border-radius:50px;
   borderColor:#FBFBFB
 `;
 
@@ -80,5 +80,5 @@ const ProfileView = styled.Image`
   width:24px;
   height:24px;
   borderWidth:1px;
-  borderRadius:50%;
+  border-radius:50px;
 `;

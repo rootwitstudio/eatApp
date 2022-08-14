@@ -56,6 +56,7 @@ const SearchView = styled.View`
   shadowOpacity: 0.2;
   shadowRadius: 3px;
   align-items: center;
+  elevation: 5;
   `;
 
 const SearchIcon = styled.View`
