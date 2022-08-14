@@ -1,0 +1,18 @@
+type Items {
+  id: Int!
+  name: String!
+  photo: String!
+  price: Int!
+  favoriteCount: Int!
+  dietaryChoice: String!
+  desc: String!
+  cuisineType: String!
+}
+
+type Query {
+  items: Items
+}
+
+schema {
+  query: Query
+}

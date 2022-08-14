@@ -1,0 +1,12 @@
+query GetItems{
+    items {
+        id
+        name
+        photo
+        price
+        favoriteCount
+        dietaryChoice
+        desc
+        cuisineType
+    }
+}
